@@ -1,0 +1,108 @@
+/* exemplos de css com seletores, propriedades e valores */
+
+/* exemplo com seletores do tipo tag html, classes (via ponto) e identificadores (ID, via cerquilha) */
+body{
+    background-color: darkgray ;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34);
+    margin: 0;
+    /* exemplos de uso da propriedade background-image: 
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+}
+
+.container{
+    width: 900px;
+    margin: 10px auto; 
+    padding: 0 20px 2px;
+    border: 2px double gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(44, 44, 44);
+    background-color: rgb(229, 229, 240);   
+}
+
+.profile{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(73 73 73);
+    font-weight: 100;
+    letter-spacing: -1px;
+  }
+  
+  h4 {
+    margin-bottom: 5px;
+  }
+  
+  h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  p {
+    line-height: 25px;
+    margin: 0 20px;
+  }
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid white; /* shorthand para border-width, border-style (obrigatório) e border-color */
+    border-radius: 50%; /* shorthand com 4 valores: top-left, top-right, bottom-right, bottom-left */
+    margin: 30px 30px 0; /* shorthand com 4 valores p/ margin vai na sequência top, right, bottom, left */
+    box-shadow: 0px 0px 10px #959595; /* sequência dos parâmetros: horizontal, vertical, desfoque e cor */ 
+}
+/* margin é o espaçamento externo ao elemento e padding é o espaçamento interno */
+/* pode-se dispensar os shorthands para aplicar-se valores específicos a parâmetros que se deseje ajustar */
+/* existem shorthands para parâmetros mais específicos, como border-style, p. ex. */
+/* tornar um hábito a consulta ao W3C Schools */
+
+#nome-completo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: gold;
+    margin: 10px 0 0 0; 
+    text-shadow: 1.5px 1.5px rgb(73, 73, 73);
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.social-icons{
+    width: 30px; 
+}
+
+.github{
+    margin: 0 15px;
+}
+
+.jobs-list{
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+
+.footer{
+    margin: 10px 0 0 0;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}
